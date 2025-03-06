@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "282315f488d5034e2cdce2c0ae473a1d",
+    "packages": [
+        {
+            "name": "semiorbit/guid",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/semiorbit/guid.git",
+                "reference": "0631d252a1beba5af48c6cfcf4a7eee9a34840ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/semiorbit/guid/zipball/0631d252a1beba5af48c6cfcf4a7eee9a34840ea",
+                "reference": "0631d252a1beba5af48c6cfcf4a7eee9a34840ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SemiorbitGuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ibrahim Khalil Khalbous",
+                    "email": "ibrahim@semiorbit.com"
+                },
+                {
+                    "name": "Semiorbit Solution Co. LLC",
+                    "email": "framework@semiorbit.com",
+                    "homepage": "https://semiorbit.com"
+                }
+            ],
+            "description": "Generate a GUID in PHP that is compatible with  Microsoft .NET Framework (C#) GUID.",
+            "keywords": [
+                "DCE UUID",
+                "GUID PHP",
+                "Microsoft .NET GUID",
+                "guid"
+            ],
+            "support": {
+                "issues": "https://github.com/semiorbit/guid/issues",
+                "source": "https://github.com/semiorbit/guid/tree/v1.0.1"
+            },
+            "time": "2023-08-24T21:56:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
